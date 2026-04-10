@@ -1,0 +1,25 @@
+{
+  "serviceName": "data-parser",
+  "status": "healthy",
+  "timestamp": "2024-10-27T10:30:00Z",
+  "version": "1.2.3",
+  "dependencies": {
+    "database": {
+      "status": "healthy",
+      "responseTimeMs": 15
+    },
+    "messageQueue": {
+      "status": "healthy",
+      "queueLength": 10
+    }
+  },
+  "metrics": {
+    "cpuUsagePercent": 25.5,
+    "memoryUsageBytes": 123456789,
+    "processedRecords": 12345
+  },
+  "environment": {
+    "hostname": "data-parser-node-01",
+    "os": "Linux"
+  }
+}
